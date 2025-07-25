@@ -179,3 +179,12 @@ button {
     border: 2px solid;
     border-color: white;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}

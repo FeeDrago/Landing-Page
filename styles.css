@@ -82,6 +82,10 @@ button {
     padding: 10px 50px;
 }
 
+.hero-column button {
+    font-weight: bold;
+}
+
 .information {
     padding: 20px 0;
 }
@@ -142,4 +146,36 @@ button {
 .quote-author {
     font-weight: bold;
     align-self: end;
+}
+
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background-color: #3882f6;
+    border-radius: 4px;
+    margin: 100px 200px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 800px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-strong {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.action button {
+    border: 2px solid;
+    border-color: white;
 }
